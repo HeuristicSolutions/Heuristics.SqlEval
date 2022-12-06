@@ -120,7 +120,7 @@ Now that you're done, please submit to us the following things:
 
 | File | Description | 
 | ---- | ----------- |
-SqlAssessment_YOUR_NAME.bak | Create a backup of your database 
+SqlAssessment_YOUR_NAME.bak | Create a backup of your database **in a SQL Server 2016 compatible format**
 Task1_deletes.csv | List of the `MEMBER_ADDRESS` rows that were deleted as dupes in Task 1
 GET_ADDRESS_STATS.sql | SQL script for creating your stored procedure in Task 2
 Task3_solution.txt | Text file explaining how you approached the import task. Did you write scripts? Use a tool?
