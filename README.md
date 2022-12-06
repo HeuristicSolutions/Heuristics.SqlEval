@@ -105,3 +105,28 @@ The business rules for the import are:
 
 | :exclamation:        | Create a file containing the SQL scripts used to import the data (or an explanation of the tool you used) and the rows that couldn't be processed. These will be submitted at the end of the assessment. |
 |---------------|:------------------------|
+
+## Extra credit (optional)
+Here are some additional, **optional** things you can do if you really want to impress us.
+
+1. Row 2003 isn't importing correctly; the last name is getting messed up. Why? What could we do about this?
+
+2. A stakeholder reports that the import is processing too slowly. What could you do to speed it up?
+
+## Wrapping it up
+Thanks again for spending your time on this!
+
+Now that you're done, please submit to us the following things:
+
+| File | Description | 
+| ---- | ----------- |
+SqlAssessment_YOUR_NAME.bak | Create a backup of your database 
+Task1_deletes.csv | List of the `MEMBER_ADDRESS` rows that were deleted as dupes in Task 1
+GET_ADDRESS_STATS.sql | SQL script for creating your stored procedure in Task 2
+Task3_solution.txt | Text file explaining how you approached the import task. Did you write scripts? Use a tool?
+Task3_errors.csv | List of rows from the import file that could not be fully processed for whatever reason. Should include an indication of the problem or error that was encountered
+
+We'll then set up a time to go over the results with you.
+
+## Final notes
+This is meant to approximate a real-world project, so if you have questions or problems please feel free to ask us. Sometimes how you handle problems is just as important as getting the right answer!
